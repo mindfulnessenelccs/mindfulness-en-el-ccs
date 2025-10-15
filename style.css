@@ -57,3 +57,27 @@ h2,h3{color:var(--accent);margin-top:0}
   margin-bottom: 10px;
   font-weight: 600;
 }
+
+.agradecimientos {
+  text-align: center;
+  margin-top: 2rem;
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.agradecimientos h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.agradecimientos p {
+  margin: 0.3rem 0;
+  font-size: 1rem;
+}
+
+.agradecimientos blockquote {
+  font-style: italic;
+  color: #555;
+  margin-top: 1.5rem;
+}
