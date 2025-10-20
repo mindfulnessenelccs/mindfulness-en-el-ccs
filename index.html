@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Mindfulness en el CCS</title>
-  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
   <header class="site-header">
@@ -18,21 +18,26 @@
       <button class="nav-btn" data-section="inicio">Inicio</button>
       <button class="nav-btn" data-section="quees">¿Qué es?</button>
       <button class="nav-btn" data-section="beneficios">Beneficios</button>
+      <button class="nav-btn" data-section="videos">Videos</button>
       <button class="nav-btn" data-section="resultados">Resultados</button>
       <button class="nav-btn" data-section="contacto">Contacto</button>
+      <a class="mail-btn" href="mailto:mindfulnessccs@gmail.com" title="Escríbenos">Contáctanos</a>
     </nav>
   </header>
 
   <main class="container">
+    <!-- Inicio (breve bienvenida) -->
     <section id="inicio" class="content-section active">
       <p>Bienvenido al proyecto educativo <strong>Mindfulness en el CCS</strong>, una propuesta para fomentar la atención plena y el bienestar emocional en el entorno escolar.</p>
     </section>
 
+    <!-- ¿Qué es? -->
     <section id="quees" class="content-section">
       <h2>¿Qué es el Mindfulness?</h2>
       <p>El Mindfulness es una práctica que consiste en prestar atención plena y consciente al momento presente, sin juzgar lo que ocurre. Promueve la calma, la concentración y la regulación emocional, ayudando a los estudiantes a manejar el estrés académico y fortalecer su bienestar general.</p>
     </section>
 
+    <!-- Beneficios -->
     <section id="beneficios" class="content-section">
       <h2>Beneficios del Mindfulness</h2>
       <ul>
@@ -43,15 +48,34 @@
       </ul>
     </section>
 
-    <section id="resultados" class="content-section">
-      <h2>Resultados del proyecto</h2>
-      <p>La implementación de Mindfulness mostró resultados positivos en la regulación emocional y reducción del estrés académico, fortaleciendo el bienestar y la convivencia escolar.</p>
+    <!-- Videos (botones + video embebido) -->
+    <section id="videos" class="content-section">
+      <h2>Prácticas guiadas</h2>
+      <p>Elige una duración y reproduce la práctica guiada.</p>
+
+      <div class="video-controls">
+        <button class="video-btn" data-src="https://www.youtube.com/embed/6p_yaNFSYao">Duración corta (5 min)</button>
+        <button class="video-btn" data-src="https://www.youtube.com/embed/pv5wV-8dVGo">Duración media (10 min)</button>
+        <button class="video-btn" data-src="https://www.youtube.com/embed/inpok4MKVLM">Duración larga (15 min)</button>
+      </div>
+
+      <div class="video-wrap">
+        <!-- iframe se actualiza desde script.js -->
+        <iframe id="player" src="about:blank" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
     </section>
 
+    <!-- Resultados -->
+    <section id="resultados" class="content-section">
+      <h2>Resultados del proyecto</h2>
+      <p>La implementación de Mindfulness mostró resultados positivos en la regulación emocional y reducción del estrés académico, fortaleciendo el bienestar y la convivencia escolar. Los cambios fueron moderados (debido a la duración breve de la intervención) pero consistentes con la literatura.</p>
+    </section>
+
+    <!-- Contacto -->
     <section id="contacto" class="content-section">
       <h2>Contacto</h2>
-      <p>Si deseas más información o tienes alguna pregunta, puedes escribirnos a:</p>
-      <a href="mailto:mindfulnessccs@gmail.com" class="email-link">mindfulnessccs@gmail.com</a>
+      <p>Si deseas más información o tienes alguna pregunta, escríbenos:</p>
+      <a class="btn email-link" href="mailto:mindfulnessccs@gmail.com">mindfulnessccs@gmail.com</a>
     </section>
   </main>
 
