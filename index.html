@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Mindfulness en el CCS</title>
-  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
   <header class="site-header">
@@ -13,76 +13,85 @@
       <h1 class="site-title">Mindfulness en el CCS</h1>
       <img src="assets/Fondo_de_IMG_1534_eliminado_2.jpeg" alt="Logo Proyecto" class="logo right-logo">
     </div>
-
-    <nav class="navbar">
-      <button class="nav-btn" data-section="inicio">Inicio</button>
-      <button class="nav-btn" data-section="quees">¿Qué es?</button>
-      <button class="nav-btn" data-section="beneficios">Beneficios</button>
-      <button class="nav-btn" data-section="videos">Videos</button>
-      <button class="nav-btn" data-section="resultados">Resultados</button>
-      <button class="nav-btn" data-section="contacto">Contacto</button>
-      <a class="mail-btn" href="mailto:mindfulnessccs@gmail.com" title="Escríbenos">Contáctanos</a>
-    </nav>
+    <p class="subtitle">Proyecto de Mindfulness aplicado en el Colegio Cardenal Sancha</p>
   </header>
 
   <main class="container">
-    <!-- Inicio (breve bienvenida) -->
-    <section id="inicio" class="content-section active">
-      <p>Bienvenido al proyecto educativo <strong>Mindfulness en el CCS</strong>, una propuesta para fomentar la atención plena y el bienestar emocional en el entorno escolar.</p>
-    </section>
 
-    <!-- ¿Qué es? -->
-    <section id="quees" class="content-section">
+    <section class="card">
       <h2>¿Qué es el Mindfulness?</h2>
-      <p>El Mindfulness es una práctica que consiste en prestar atención plena y consciente al momento presente, sin juzgar lo que ocurre. Promueve la calma, la concentración y la regulación emocional, ayudando a los estudiantes a manejar el estrés académico y fortalecer su bienestar general.</p>
+      <p>El Mindfulness es una práctica que busca el bienestar emocional y mental a través de la atención plena en el momento presente. 
+      Este proyecto implementó diferentes sesiones con estudiantes de décimo grado, orientadas a fortalecer la autorregulación emocional y reducir el estrés académico.</p>
     </section>
 
-    <!-- Beneficios -->
-    <section id="beneficios" class="content-section">
+    <section class="card">
       <h2>Beneficios del Mindfulness</h2>
       <ul>
-        <li><strong>Reducción del estrés académico:</strong> ayuda a manejar la presión de exámenes y tareas.</li>
-        <li><strong>Mayor concentración y atención:</strong> mejora la capacidad de enfocarse sin distracciones.</li>
-        <li><strong>Autoregulación emocional:</strong> permite reconocer y manejar emociones intensas.</li>
-        <li><strong>Fortalecimiento del bienestar general:</strong> promueve el equilibrio y la conexión con uno mismo.</li>
+        <li><strong>Reducción del estrés académico:</strong> ayuda a manejar la presión de exámenes, tareas y responsabilidades.</li>
+        <li><strong>Mejor concentración y atención:</strong> fomenta la capacidad de enfocarse en una tarea sin distracciones.</li>
+        <li><strong>Mayor autorregulación emocional:</strong> permite reconocer y controlar emociones intensas como la ansiedad, la frustración o la ira.</li>
+        <li><strong>Fortalecimiento del bienestar general:</strong> promueve la calma interior, el equilibrio y la conexión con uno mismo.</li>
+        <li><strong>Mejor convivencia escolar:</strong> impulsa la empatía, la escucha activa y el respeto hacia los demás.</li>
       </ul>
     </section>
 
-    <!-- Videos (botones + video embebido) -->
-    <section id="videos" class="content-section">
-      <h2>Prácticas guiadas</h2>
-      <p>Elige una duración y reproduce la práctica guiada.</p>
+    <section class="card">
+      <h2>Videos</h2>
+      <p>Selección de prácticas guiadas de Mindfulness. Puedes verlas según el tiempo que tengas disponible.</p>
 
-      <div class="video-controls">
-        <button class="video-btn" data-src="https://www.youtube.com/embed/6p_yaNFSYao">Duración corta (5 min)</button>
-        <button class="video-btn" data-src="https://www.youtube.com/embed/pv5wV-8dVGo">Duración media (10 min)</button>
-        <button class="video-btn" data-src="https://www.youtube.com/embed/inpok4MKVLM">Duración larga (15 min)</button>
-      </div>
+      <h4>Video 1</h4>
+      <iframe width="560" height="315" 
+      src="https://www.youtube.com/embed/XGxhiYnXCPU" 
+      title="Mindfulness - Video 1" frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen></iframe>
 
-      <div class="video-wrap">
-        <!-- iframe se actualiza desde script.js -->
-        <iframe id="player" src="about:blank" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
+      <h4>Video 2</h4>
+      <iframe width="560" height="315" 
+      src="https://www.youtube.com/embed/DE6HqNA2rik" 
+      title="Mindfulness - Video 2" frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen></iframe>
+
+      <h4>Video 3</h4>
+      <iframe width="560" height="315" 
+      src="https://www.youtube.com/embed/n2Rq2hzAYoc" 
+      title="Mindfulness - Video 3" frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen></iframe>
     </section>
 
-    <!-- Resultados -->
-    <section id="resultados" class="content-section">
-      <h2>Resultados del proyecto</h2>
-      <p>La implementación de Mindfulness mostró resultados positivos en la regulación emocional y reducción del estrés académico, fortaleciendo el bienestar y la convivencia escolar. Los cambios fueron moderados (debido a la duración breve de la intervención) pero consistentes con la literatura.</p>
+    <section class="card">
+      <h2>Resultados de la investigación</h2>
+      <p>Se observó un cambio positivo en los estudiantes tras la aplicación del programa, evidenciando una mejora en la regulación emocional 
+      y el manejo del estrés académico. Aunque los resultados fueron favorables, no alcanzaron el nivel esperado, posiblemente por la duración limitada del proceso.</p>
     </section>
 
-    <!-- Contacto -->
-    <section id="contacto" class="content-section">
-      <h2>Contacto</h2>
-      <p>Si deseas más información o tienes alguna pregunta, escríbenos:</p>
-      <a class="btn email-link" href="mailto:mindfulnessccs@gmail.com">mindfulnessccs@gmail.com</a>
+    <section class="card">
+      <h2>Comentarios</h2>
+      <p>Espacio para que los usuarios dejen preguntas o experiencias.</p>
+    </section>
+
+    <div class="contact">
+      <a class="btn primary" 
+         href="https://mail.google.com/mail/?view=cm&fs=1&to=mindfulnessccs@gmail.com" 
+         target="_blank">Escríbenos</a>
+    </div>
+
+    <section class="card">
+      <h2>Créditos / Agradecimientos</h2>
+      <p><strong>Autoras:</strong> Gabriella Ramírez; María Alejandra Forero<br>
+      <strong>Profesor guía:</strong> Jhon Luis Carreño<br>
+      <strong>Tutor:</strong> Jairo Iván García Guavita<br>
+      <strong>Institución:</strong> Colegio Cardenal Sancha<br>
+      <strong>Año:</strong> 2025</p>
+
+      <blockquote>“Porque cada respiro es una oportunidad para empezar de nuevo.”</blockquote>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>© 2025 Mindfulness en el CCS — Proyecto educativo Colegio Cardenal Sancha</p>
+    <p>© 2025 Mindfulness en el CCS – Proyecto educativo Colegio Cardenal Sancha</p>
   </footer>
-
-  <script src="assets/script.js"></script>
 </body>
 </html>
