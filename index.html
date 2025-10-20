@@ -1,130 +1,64 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Mindfulness en el CCS</title>
-<link rel="stylesheet" href="assets/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mindfulness en el CCS</title>
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-<header class="site-header">
-  <div class="logo-container">
-    <img src="assets/IMG_1533_2.png" alt="Logo Colegio" class="logo left-logo">
-    <h1 class="site-title">Mindfulness en el CCS</h1>
-    <img src="assets/Fondo_de_IMG_1534_eliminado_2.jpeg" alt="Logo Proyecto" class="logo right-logo">
-  </div>
+  <header class="site-header">
+    <div class="header-inner">
+      <img src="assets/IMG_1533_2.png" alt="Logo Colegio" class="logo left-logo">
+      <h1 class="site-title">Mindfulness en el CCS</h1>
+      <img src="assets/Fondo_de_IMG_1534_eliminado_2.jpeg" alt="Logo Proyecto" class="logo right-logo">
+    </div>
 
-  <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
-
-  <nav class="mobile-menu" aria-hidden="true">
-    <ul>
-      <li><a href="#inicio">Inicio</a></li>
-      <li><a href="#que-es">¿Qué es?</a></li>
-      <li><a href="#beneficios">Beneficios</a></li>
-      <li><a href="#videos">Videos</a></li>
-      <li><a href="#resultados">Resultados</a></li>
-      <li><a href="#contacto">Contacto</a></li>
-    </ul>
-  </nav>
-
-  <p class="subtitle">Página del proyecto Mindfulness en el CCS</p>
+    <nav class="navbar">
+      <button class="nav-btn" data-section="inicio">Inicio</button>
+      <button class="nav-btn" data-section="quees">¿Qué es?</button>
+      <button class="nav-btn" data-section="beneficios">Beneficios</button>
+      <button class="nav-btn" data-section="resultados">Resultados</button>
+      <button class="nav-btn" data-section="contacto">Contacto</button>
+    </nav>
   </header>
 
   <main class="container">
-    <section class="card">
-      <h2>¿Qué es?</h2>
-      <p>El Mindfulness es una práctica que consiste en prestar atención plena y consciente al momento presente, sin juzgar lo que ocurre. Su propósito es desarrollar la capacidad de reconocer y aceptar los pensamientos, emociones y sensaciones, promoviendo la calma y el equilibrio emocional. En el contexto educativo, ayuda a los estudiantes a reducir el estrés académico, mejorar su concentración y fortalecer su bienestar general.</p>
+    <section id="inicio" class="content-section active">
+      <p>Bienvenido al proyecto educativo <strong>Mindfulness en el CCS</strong>, una propuesta para fomentar la atención plena y el bienestar emocional en el entorno escolar.</p>
     </section>
 
-<section class="card">
-  <h2>Beneficios del Mindfulness</h2>
-  <p>Practicar Mindfulness en el entorno escolar permite a los estudiantes desarrollar habilidades emocionales y cognitivas que favorecen su bienestar. Entre los principales beneficios se encuentran:</p>
-  <ul>
-    <li> <strong>Reducción del estrés académico:</strong> ayuda a manejar la presión de exámenes, tareas y responsabilidades.</li>
-    <li> <strong>Mejor concentración y atención:</strong> fomenta la capacidad de enfocarse en una tarea sin distracciones.</li>
-    <li> <strong>Mayor autorregulación emocional:</strong> permite reconocer y controlar emociones intensas como la ansiedad, la frustración o la ira.</li>
-    <li> <strong>Fortalecimiento del bienestar general:</strong> promueve la calma interior, el equilibrio y la conexión con uno mismo.</li>
-    <li> <strong>Mejor convivencia escolar:</strong> impulsa la empatía, la escucha activa y el respeto hacia los demás.</li>
-  </ul>
-</section>
+    <section id="quees" class="content-section">
+      <h2>¿Qué es el Mindfulness?</h2>
+      <p>El Mindfulness es una práctica que consiste en prestar atención plena y consciente al momento presente, sin juzgar lo que ocurre. Promueve la calma, la concentración y la regulación emocional, ayudando a los estudiantes a manejar el estrés académico y fortalecer su bienestar general.</p>
+    </section>
 
-<section class="card">
-  <h2>Videos</h2>
-  <p>Selección de prácticas guiadas por Mindfulness. Puedes verlas según el tiempo que tengas disponible.</p>
+    <section id="beneficios" class="content-section">
+      <h2>Beneficios del Mindfulness</h2>
+      <ul>
+        <li><strong>Reducción del estrés académico:</strong> ayuda a manejar la presión de exámenes y tareas.</li>
+        <li><strong>Mayor concentración y atención:</strong> mejora la capacidad de enfocarse sin distracciones.</li>
+        <li><strong>Autoregulación emocional:</strong> permite reconocer y manejar emociones intensas.</li>
+        <li><strong>Fortalecimiento del bienestar general:</strong> promueve el equilibrio y la conexión con uno mismo.</li>
+      </ul>
+    </section>
 
-  <!-- Video 1 -->
-  <h4>Video 1</h4>
-  <iframe width="560" height="315"
-    src="https://www.youtube.com/embed/XGxhiYnXCPU"
-    title="Mindfulness - Video 1"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen>
-  </iframe>
+    <section id="resultados" class="content-section">
+      <h2>Resultados del proyecto</h2>
+      <p>La implementación de Mindfulness mostró resultados positivos en la regulación emocional y reducción del estrés académico, fortaleciendo el bienestar y la convivencia escolar.</p>
+    </section>
 
-  <!-- Video 2 -->
-  <h4>Video 2</h4>
-  <iframe width="560" height="315"
-    src="https://www.youtube.com/embed/DE6HqNA2rik"
-    title="Mindfulness - Video 2"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen>
-  </iframe>
+    <section id="contacto" class="content-section">
+      <h2>Contacto</h2>
+      <p>Si deseas más información o tienes alguna pregunta, puedes escribirnos a:</p>
+      <a href="mailto:mindfulnessccs@gmail.com" class="email-link">mindfulnessccs@gmail.com</a>
+    </section>
+  </main>
 
-  <!-- Video 3 -->
-  <h4>Video 3</h4>
-  <iframe width="560" height="315"
-    src="https://www.youtube.com/embed/n2Rq2hzAYoc"
-    title="Mindfulness - Video 3"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen>
-  </iframe>
-</section>
+  <footer class="site-footer">
+    <p>© 2025 Mindfulness en el CCS — Proyecto educativo Colegio Cardenal Sancha</p>
+  </footer>
 
-<section class="card">
-  <h2>Resultados de la investigación</h2>
-  <p>Este proyecto busca promover el bienestar emocional y académico a través de prácticas de Mindfulness en el entorno escolar. A partir de distintas actividades y sesiones de atención plena, se fomenta la calma, la concentración y el reconocimiento de las emociones, ofreciendo a los estudiantes herramientas para manejar el estrés y mejorar su equilibrio personal.</p>
-</section>
-
-<section class="card">
-  <h2>Comentarios</h2>
-  <p>Espacio para que los usuarios dejen preguntas o experiencias.</p>
-</section>
-
-<a class="btn primary" href="https://mail.google.com/mail/?view=cm&fs=1&to=mindfulnessccs@gmail.com" target="_blank">
-  Escríbenos
-</a>
-
-    <section class="card agradecimientos">
-  <h2>Créditos / Agradecimientos</h2>
-  <p><strong>Autoras:</strong> Gabriella Ramírez; María Alejandra Forero</p>
-  <p><strong>Profesor guía:</strong> Jhon Luis Carreño</p>
-  <p><strong>Tutor:</strong> Jairo Iván García Guavita</p>
-  <p><strong>Institución:</strong> Colegio Cardenal Sancha</p>
-  <p><strong>Año:</strong> 2025</p>
-  <blockquote>“Porque cada respiro es una oportunidad para empezar de nuevo.”</blockquote>
-</section>
-    
-<footer class="site-footer">
-  <p>© 2025 Mindfulness en el CCS – Proyecto educativo Colegio Cardenal Sancha</p>
-</footer>
-    <footer class="site-footer">
-  <p>© 2025 Mindfulness en el CCS – Proyecto educativo Colegio Cardenal Sancha</p>
-</footer>
-
-<script>
-  const toggleButton = document.querySelector('.menu-toggle');
-  const menu = document.querySelector('.mobile-menu');
-
-  toggleButton.addEventListener('click', () => {
-    const isExpanded = toggleButton.getAttribute('aria-expanded') === 'true';
-    toggleButton.setAttribute('aria-expanded', !isExpanded);
-    menu.setAttribute('aria-hidden', isExpanded);
-    menu.classList.toggle('open');
-  });
-</script>
-
+  <script src="assets/script.js"></script>
 </body>
 </html>
