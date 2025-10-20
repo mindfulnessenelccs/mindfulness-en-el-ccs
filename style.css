@@ -134,3 +134,36 @@ blockquote {
 .navbar a:hover {
   background-color: #e6f0ff;
 }
+/* === Barra de navegación === */
+.navbar {
+  background-color: #f2f8fa; /* fondo suave */
+  padding: 10px 0;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  background-color: #e3f2fd;
+  color: #003366;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #b3e5fc;
+  color: #000;
+}
